@@ -66,7 +66,7 @@ A fully-featured **Philips Hue Bridge emulator** built on ESP32-S3 using the Ard
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone the Repository
 ```bash
@@ -271,7 +271,7 @@ Contributions are welcome! Please feel free to submit pull requests or open issu
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the **APACHE 2.0 License** - see the [LICENSE](LICENSE) file for details.
 
@@ -294,7 +294,7 @@ This project is licensed under the **APACHE 2.0 License** - see the [LICENSE](LI
 
 ---
 
-## 🌟 Star History
+## Star History
 
 If you find this project useful, please consider giving it a ⭐ on GitHub!
 
