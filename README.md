@@ -1,4 +1,4 @@
-# 🌈 Hueduino - Open Source Philips Hue Bridge Clone
+# Hueduino - Open Source Philips Hue Bridge Clone
 
 [![Platform](https://img.shields.io/badge/platform-ESP32--S3-blue.svg)](https://www.espressif.com/en/products/socs/esp32-s3)
 [![Framework](https://img.shields.io/badge/framework-Arduino-00979D.svg)](https://www.arduino.cc/)
@@ -9,23 +9,23 @@ A fully-featured **Philips Hue Bridge emulator** built on ESP32-S3 using the Ard
 
 ---
 
-## ✨ Features
+## Features
 
-### 🎯 Core Functionality
+### Core Functionality
 - **Full Hue API v1 Compatibility** - Works with official Philips Hue apps and third-party integrations
 - **HTTPS Support** - Secure communication with SSL/TLS encryption for official app pairing
 - **Automatic Discovery** - SSDP and mDNS for seamless device discovery
 - **WiFi Configuration Portal** - Easy setup via captive portal (no hardcoded credentials)
 - **Persistent Storage** - NVS-based configuration with auto-save functionality
 
-### 💡 Light Management
+### Light Management
 - **Up to 50 Lights** - Control multiple smart lights simultaneously
 - **Full Color Control** - RGB, HSV, XY color space, and color temperature
 - **Automatic Light Discovery** - Network scanning to find compatible lights
 - **Manual Light Addition** - Add lights via web dashboard
 - **Light Groups** - Organize lights into rooms and zones (up to 16 groups)
 
-### 🎨 Advanced Features
+### Advanced Features
 - **Scene Manager** - Create and manage up to 100 custom scenes
 - **Entertainment Mode** - High-speed UDP streaming for Hue Sync (screen mirroring, gaming, music visualization)
 - **Dynamic Scenes** - Animated color transitions and effects
@@ -33,7 +33,7 @@ A fully-featured **Philips Hue Bridge emulator** built on ESP32-S3 using the Ard
 - **Rules Engine** - Create custom automation rules (up to 200 rules)
 - **Sensors Support** - Motion sensors, switches, and more (up to 60 sensors)
 
-### 🔧 Hardware Features
+### Hardware Features
 - **Status LED** - WS2812B RGB LED for visual feedback
   - 🔵 Blue: Booting
   - 🟢 Green: Link mode (pairing)
@@ -44,7 +44,7 @@ A fully-featured **Philips Hue Bridge emulator** built on ESP32-S3 using the Ard
   - Short press: Enable pairing mode (30 seconds)
   - Long press (5s): Factory reset
 
-### 🌐 Web Dashboard
+### Web Dashboard
 - Real-time bridge status monitoring
 - Light management interface
 - Manual light scanning
@@ -53,7 +53,7 @@ A fully-featured **Philips Hue Bridge emulator** built on ESP32-S3 using the Ard
 
 ---
 
-## 📋 Requirements
+## Requirements
 
 ### Hardware
 - **ESP32-S3 DevKit** (or compatible board)
@@ -111,7 +111,7 @@ Or using Arduino IDE:
 
 ---
 
-## 📡 API Endpoints
+## API Endpoints
 
 ### Discovery
 - `GET /description.xml` - UPnP device description
@@ -139,7 +139,7 @@ Or using Arduino IDE:
 
 ---
 
-## 🎨 Entertainment Mode (Hue Sync)
+## Entertainment Mode (Hue Sync)
 
 Entertainment mode enables real-time, low-latency color streaming for:
 - **Screen Mirroring** - Sync lights with your TV/monitor
@@ -153,7 +153,7 @@ Entertainment mode enables real-time, low-latency color streaming for:
 
 ---
 
-## 🔧 Configuration
+## Configuration
 
 ### Default Settings
 All configurable values are in `include/config_defaults.h`:
@@ -178,7 +178,7 @@ The bridge automatically:
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 hueduino/
@@ -208,7 +208,7 @@ hueduino/
 
 ---
 
-## 🔌 Compatible Lights
+## Compatible Lights
 
 This bridge works with any light that implements the diyHue protocol:
 - **ESP8266/ESP32** lights with custom firmware
@@ -221,7 +221,7 @@ Check out compatible light firmware in the `light_firmwares/` folder (if availab
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Bridge Not Discovered
 1. Ensure bridge and phone are on the same WiFi network
@@ -249,7 +249,7 @@ Check out compatible light firmware in the `light_firmwares/` folder (if availab
 
 ---
 
-## 📊 Serial Monitor Output
+## Serial Monitor Output
 
 Enable debug output at 115200 baud to see:
 - Boot sequence and initialization
@@ -261,7 +261,7 @@ Enable debug output at 115200 baud to see:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit pull requests or open issues for:
 - Bug fixes
@@ -273,11 +273,11 @@ Contributions are welcome! Please feel free to submit pull requests or open issu
 
 ## 📜 License
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **APACHE 2.0 License** - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [diyHue](https://diyhue.org/) - Inspiration and protocol documentation
 - [Philips Hue](https://www.philips-hue.com/) - Original Hue Bridge API
@@ -287,7 +287,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ---
 
-## 📞 Support
+## Support
 
 - **GitHub Issues**: [Report bugs or request features](https://github.com/LEDGNDARYbrahmin/hueduino/issues)
 - **Discussions**: [Ask questions and share ideas](https://github.com/LEDGNDARYbrahmin/hueduino/discussions)
@@ -299,5 +299,3 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 If you find this project useful, please consider giving it a ⭐ on GitHub!
 
 ---
-
-**Made with ❤️ by the Hueduino Team**
