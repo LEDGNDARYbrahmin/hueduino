@@ -2,7 +2,7 @@
 
 [![Platform](https://img.shields.io/badge/platform-ESP32--S3-blue.svg)](https://www.espressif.com/en/products/socs/esp32-s3)
 [![Framework](https://img.shields.io/badge/framework-Arduino-00979D.svg)](https://www.arduino.cc/)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-APACHE-green.svg)](LICENSE)
 [![PlatformIO](https://img.shields.io/badge/PlatformIO-compatible-orange.svg)](https://platformio.org/)
 
 A fully-featured **Philips Hue Bridge emulator** built on ESP32-S3 using the Arduino framework. Control smart lights, create scenes, and enjoy entertainment sync—all without proprietary hardware!
